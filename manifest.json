@@ -7,7 +7,7 @@
     "name": "Saidul Mursalin",
     "email": "itzmonir@gmail.com"
   },
-  "homepage": "https://github.com/rocktohq/article-reading-time",
+  "homepage_url": "https://github.com/rocktohq/article-reading-time",
   "permissions": ["activeTab", "storage"],
   "icons": {
     "128": "/icons/icon128.png"
