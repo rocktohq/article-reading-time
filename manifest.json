@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Article Reading Time",
+  "version": "1.1",
+  "description": "This extension adds a reading time indicator to articles.",
+  "author": {
+    "name": "Saidul Mursalin",
+    "email": "itzmonir@gmail.com"
+  },
+  "homepage": "https://github.com/rocktohq/article-reading-time",
+  "permissions": ["activeTab", "storage"],
+  "icons": {
+    "128": "/icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
