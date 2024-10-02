@@ -24,6 +24,4 @@ if (article) {
 
   badge.textContent = `⏱️ ${readingTime} min reading time`;
   article.append(badge);
-} else {
-  alert("No article found!");
 }
